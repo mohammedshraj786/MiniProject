@@ -45,8 +45,6 @@ app.use('/apiproduct',productRoute);
 
 const port = 6000;
 
-const seedAdmin=require("./seeder/admin");
-const seedAdmins=seedAdmin();
 
 // // ---------------
 // async function deleteAllUsers() {
