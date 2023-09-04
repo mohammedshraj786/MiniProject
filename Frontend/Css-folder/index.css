@@ -1,0 +1,86 @@
+.body-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(/Image-folder/index-bg.jpg);
+    background-size:cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* background-color: white; */
+    color: black;
+}
+.navbar{
+    box-shadow: none;
+}
+.text-area{
+    min-height: 70vh;
+    margin-top: 100px;
+    color: black;
+}
+
+/* .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+} */
+
+.dropdown:hover .list-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-end {
+    display: block;
+}
+
+h1{
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-family:sans-serif;
+    margin-bottom: 15px;
+}
+h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.short-popular-category-list h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.short-popular-category-list ul li a {
+    border: 1px solid #aea8a8;
+    color:black !important;
+    font-weight: 200;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.advance-search{
+    margin-top: 100px;
+    background-color:transparent;
+    padding: 50px;
+    z-index: 20px;
+    margin-bottom: 100px;
+}
+
+.text{
+    background-color: rgb(38, 36, 36) !important;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.rounded-circle{
+    width: 45px; /* Adjust the size as needed */
+    height: 45px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Clips the image to the container's circular shape */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid #ccc; /* Optional border styling */
+}

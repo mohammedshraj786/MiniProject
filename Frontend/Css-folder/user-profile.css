@@ -1,0 +1,82 @@
+.body-wrapper{
+  width: 100%;
+  height: 100%;
+  background-image: url(/Image-folder/user-profile-bg.avif);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+}
+.navbar{
+  box-shadow: none !important;
+}
+
+.dropdown:hover .list-menu {
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu-end {
+  display: block;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 600;
+}
+span{
+  color: white !important;
+}
+
+.rounded-circle{
+  width: 45px; /* Adjust the size as needed */
+  height: 45px;
+  border-radius: 50%; /* Makes the container circular */
+  overflow: hidden; /* Clips the image to the container's circular shape */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border: 2px solid #ccc; /* Optional border styling */
+}
+
+/* user style */
+
+.fa-user:before {
+  content: "\f007";
+  font-size: 20px;
+}
+
+.fa{
+  padding: 20px;
+}
+
+.rounded-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border: 2px solid #ccc; 
+}
+
+.round-circle {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text-user{
+  padding: 15px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.text-user{
+  margin-left: 60px !important;
+  margin-bottom: 50px !important;
+}
+
+.col-lg-6{
+  margin-top: 20px;
+}
+

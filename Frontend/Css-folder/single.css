@@ -1,0 +1,39 @@
+.body-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(/Image-folder/contact-bg.avif);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+  }
+  .navbar{
+    box-shadow: none !important;
+  }
+  
+  .dropdown:hover .list-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-end {
+    display: block;
+}
+
+  .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  span{
+    color: white !important;
+  }
+  .rounded-circle{
+    width: 45px; 
+    height: 45px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid #ccc; 
+  }
+

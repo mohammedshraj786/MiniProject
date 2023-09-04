@@ -1,0 +1,72 @@
+.body-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(/Image-folder/dashboard-bg.avif);
+    background-size:cover;
+    background-position: center;
+    color: black;
+  }
+  .navbar{
+    box-shadow: none !important;
+  }
+  
+  .dropdown:hover .list-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-end {
+    display: block;
+}
+
+  .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  span{
+    color: white !important;
+  }
+  .rounded-circle{
+    width: 45px; /* Adjust the size as needed */
+    height: 45px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Clips the image to the container's circular shape */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid #ccc; /* Optional border styling */
+  }
+
+ /* image style */
+
+  .image{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .round-circle{
+    
+    width: 100%;
+    height: 100%;
+  }
+  
+  .rounded-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    overflow: hidden; 
+  }
+
+  .widget {
+    text-align: center;
+  }
+
+  .text-user{
+  margin-top: 100px !important;
+  margin-left: 150px;
+  }
+
