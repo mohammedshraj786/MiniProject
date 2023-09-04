@@ -1,0 +1,99 @@
+.body-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(/Image-folder/contact-bg.avif);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+  }
+  .navbar{
+    box-shadow: none !important;
+  }
+  
+  .dropdown:hover .list-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-end {
+    display: block;
+}
+
+  .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  span{
+    color: white !important;
+  }
+
+  .rounded-circle{
+    width: 45px; /* Adjust the size as needed */
+    height: 45px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Clips the image to the container's circular shape */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid #ccc; /* Optional border styling */
+  }
+
+.term_image {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Vertically center the content */
+    padding:0px; /* Add padding for spacing */
+}
+
+.content {
+    flex: 1; /* Let the content take available space */
+    padding-right: 20px; /* Add right padding to separate content from image */
+}
+
+.image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    max-width: 50%; /* Limit the image width to 50% of the container */
+    margin-left: 20px;
+}
+
+.text{
+  font-size: 18px;
+  color: black;
+  font-family: sans-serif;
+}
+/* Apply your global styles here */
+
+/* Media Queries for Responsive Design */
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+    .term_image {
+      flex-direction: column; /* Stack content vertically */
+      padding: 50px;
+    }
+  
+    .image {
+      margin: 50px 0; /* Add space between image and text */
+      text-align: center; /* Center the image */
+    }
+    
+    .image img {
+      width: 100%; /* Make the image fill its container */
+    }
+  
+    .content {
+      padding: 0; /* Remove right padding */
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust styling for medium screens */
+  }
+  
+  /* Large screens (desktops) */
+  @media (min-width: 1024px) {
+    /* Adjust styling for large screens */
+  }
+  
+ 

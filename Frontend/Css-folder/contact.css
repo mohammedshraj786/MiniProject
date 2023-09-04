@@ -1,0 +1,63 @@
+.body-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(/Image-folder/contact-bg.avif);
+    background-size:cover;
+    background-position: center;
+    color: black;
+  }
+  .navbar{
+    box-shadow: none !important;
+  }
+  
+  .dropdown:hover .list-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu-end {
+    display: block;
+}
+
+  .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  span{
+    color: white !important;
+  }
+
+  .rounded-circle{
+    width: 45px; /* Adjust the size as needed */
+    height: 45px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Clips the image to the container's circular shape */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid #ccc; /* Optional border styling */
+  }
+
+
+/* contact style */
+
+.heading{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+.content {
+    padding: 7rem 0;
+}
+.form-control{
+    height: auto;
+    border: none;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+p{
+    color:gray;
+}
